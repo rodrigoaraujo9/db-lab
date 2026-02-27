@@ -1,0 +1,11 @@
+criar um query.sql
+correr com
+    psql -d election -f ./query.sql
+
+comandos utéis
+    psql -d election
+        \pset pager off
+        \dt
+        \d party
+        \q
+        \i ./query.sql

@@ -1,0 +1,10 @@
+WITH RECURSIVE nums(n) AS (
+  SELECT 1
+  UNION ALL
+  SELECT n + 1
+  FROM nums
+  WHERE n < 20
+)
+SELECT n
+FROM nums
+ORDER BY n;
