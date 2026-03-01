@@ -2,7 +2,7 @@ criar um query.sql
 correr com
     psql -d election -f ./query.sql
 
-comandos utéis
+comandos uteis
     psql -d election
         \pset pager off
         \dt
