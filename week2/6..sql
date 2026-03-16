@@ -15,4 +15,4 @@ begin
 end;
 $$ language plpgsql;
 
-SELECT sum_votes_of_municipality('131200');
+-- SELECT sum_votes_of_municipality('131200');
