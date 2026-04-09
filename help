@@ -9,3 +9,11 @@ comandos uteis
         \d party
         \q
         \i ./query.sql
+
+
+dropdb spatial
+createdb spatial
+psql -d spatial -c "CREATE EXTENSION IF NOT EXISTS postgis;"
+psql -d spatial -f ./spatial_class_tables.sql
+
+psql -d spatial -f ./query.sql
